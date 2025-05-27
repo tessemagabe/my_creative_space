@@ -62,104 +62,52 @@
 								<div class="inner">
 
 									<section>
-										<h3 class="major">2. Comprehensive Summary of the Incident</h3>
-										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-										<h4>Blockquote</h4>
-										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-										<h4>Preformatted</h4>
-										<pre><code>i = 0;
+    <h3 class="major">2. Comprehensive Summary of the Incident</h3>
 
-while (!deck.isInOrder()) {
-  print 'Iteration ' + i;
-  deck.shuffle();
-  i++;
-}
+    <p>
+        In 2017, Equifax, a central credit reporting firm, had a severe data violation that compromised 
+        the sensitive individual information of nearly 147 million people. The cause of the violation 
+        was taking advantage of a vulnerability in the Apache Struts system, which Equifax was unable 
+        to resolve in time. This event highlighted crucial lapses in cybersecurity performance and had 
+        far-reaching outcomes for impacted individuals and the agency.
+    </p>
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-									</section>
+    <h4>Description of Breached Data</h4>
+    <p>
+        The violation includes addresses, names, birth dates, Social Security numbers, and driver's license numbers. 
+        Additionally, credit card numbers for nearly 200,000 people and dispute documents carrying personal 
+        information for approximately 180,000 individuals were captured.
+    </p>
 
-									<section>
-										<h3 class="major">Lists</h3>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<h4>Unordered</h4>
-												<ul>
-													<li>Dolor pulvinar etiam.</li>
-													<li>Sagittis adipiscing.</li>
-													<li>Felis enim feugiat.</li>
-												</ul>
-												<h4>Alternate</h4>
-												<ul class="alt">
-													<li>Dolor pulvinar etiam.</li>
-													<li>Sagittis adipiscing.</li>
-													<li>Felis enim feugiat.</li>
-												</ul>
-											</div>
-											<div class="col-6 col-12-medium">
-												<h4>Ordered</h4>
-												<ol>
-													<li>Dolor pulvinar etiam.</li>
-													<li>Etiam vel felis viverra.</li>
-													<li>Felis enim feugiat.</li>
-													<li>Dolor pulvinar etiam.</li>
-													<li>Etiam vel felis lorem.</li>
-													<li>Felis enim et feugiat.</li>
-												</ol>
-												<h4>Icons</h4>
-												<ul class="icons">
-													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-												</ul>
-											</div>
-										</div>
-										<h4>Actions</h4>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<ul class="actions">
-													<li><a href="#" class="button primary">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
-												</ul>
-												<ul class="actions small">
-													<li><a href="#" class="button primary small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
-												</ul>
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
-												</ul>
-												<ul class="actions stacked small">
-													<li><a href="#" class="button primary small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
-												</ul>
-											</div>
-											<div class="col-6 col-12-medium">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary fit">Default</a></li>
-													<li><a href="#" class="button fit">Default</a></li>
-												</ul>
-												<ul class="actions stacked small">
-													<li><a href="#" class="button primary small fit">Small</a></li>
-													<li><a href="#" class="button small fit">Small</a></li>
-												</ul>
-											</div>
-										</div>
-										<h4>Pagination</h4>
-										<ul class="pagination">
-											<li><span class="button small disabled">Prev</span></li>
-											<li><a href="#" class="page active">1</a></li>
-											<li><a href="#" class="page">2</a></li>
-											<li><a href="#" class="page">3</a></li>
-											<li><span>&hellip;</span></li>
-											<li><a href="#" class="page">8</a></li>
-											<li><a href="#" class="page">9</a></li>
-											<li><a href="#" class="page">10</a></li>
-											<li><a href="#" class="button small">Next</a></li>
-										</ul>
-									</section>
+    <h4>Timeline of Prime Events</h4>
+    <ul>
+        <li><b>Mar 2017:</b> Apache Struts weakness (CVE-2017-5638) was exposed, calling for swift action.</li>
+        <li><b>May 2017:</b> Hackers exploited the unresolved weakness of Equifax's framework and gained access.</li>
+        <li><b>July 2017:</b> Equifax uncovered the violation but delayed public disclosure.</li>
+        <li><b>Sept 2017:</b> Equifax publicly disclosed the breach.</li>
+        <li>Equifax offered free ongoing credit monitoring services to those affected.</li>
+    </ul>
+
+    <h4>Participants in the Violation</h4>
+    <p>
+        Equifax's IT and security team failed to manage susceptibility and respond effectively to the breach. 
+        Externally, hackers exploited the vulnerability, and later investigations linked the attack to elements 
+        of China's People's Liberation Army.
+    </p>
+
+    <h4>Ramifications of the Violation</h4>
+    <p>
+        The breach made Equifax a prime target for identity theft and led to significant consumer distrust, 
+        causing a steep decline in stock market prices, regulatory scrutiny, and financial penalties. 
+        Equifax ultimately agreed to a $425 million settlement for affected individuals.
+    </p>
+
+    <h4>Solutions Implemented</h4>
+    <p>
+        Following the breach, Equifax reinforced its cybersecurity strategy by tightening patch management policies, 
+        enhancing network segmentation, and improving monitoring and response capabilities.
+    </p>
+</section>
 
 									<section>
 										<h3 class="major">Table</h3>
